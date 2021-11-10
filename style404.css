@@ -48,7 +48,7 @@ button a:hover{
 }
 li{
     list-style: none;
-    line-height: 30px;
+    line-height: 24px;
 }
 
 /* HEADER */
@@ -93,12 +93,11 @@ h1{
 }
 p{
     font-size: clamp(14px, 10vw, 18px);
+    line-height: 1.5;
 }
 .logo{
     width: 65%;
 }
-
-/* 404 */
 .cartoon-404{
     width: 30%;
 }
@@ -120,8 +119,8 @@ p{
     margin-top: 20%;
 }
 .oups-text{
-    margin-top: -50%;
-    margin-bottom: -50%;
+    margin-top: -60%;
+    margin-bottom: -60%;
 }
 .oups-vague-jaune{ 
     position: relative;
@@ -135,14 +134,14 @@ p{
     .oups{
         margin-top: 0% !important;
     }
+    .cartoon-404{
+        margin-top: -10% !important;
+    }
 }
 
 @media screen and (max-width: 375px){
     .oups{
-        margin-top: 20%;
-    }
-    .cartoon-404{
-        width: 37%;
+        margin-top: 22%;
     }
 }
 
@@ -159,11 +158,17 @@ p{
         align-items: flex-end;
         padding-right: 5%;
     }
+    .nav-padding{
+        padding-right: 5%;
+    }
     .oups-container{
         margin-top: 30% !important;
     }
     .oups{
         width: 100% !important;
+    }
+    .cartoon-404{
+        width: 50% !important;
     }
 }
 
@@ -189,6 +194,10 @@ p{
     .oups-text{
         margin-top: 10%;
         margin-bottom: 10%;
+    }
+    .cartoon-404{
+        width: 45%;
+        margin-top: -10%;
     }
     .oups-vague-jaune{
         bottom: 0%;
