@@ -68,10 +68,7 @@ nav{
     align-items: center;
 }
 .logo-header{
-    /* justify-content: space-around;
-    align-items: center;
-    padding-top: 4%; */
-    width: 15%;
+    width: 5%;
     padding-top: 6%;
     margin-left: -1%;
 }
@@ -309,7 +306,7 @@ li{
         min-width: 50%;
     }
     .logo-header{
-        width: 30%;
+        width: 15%;
         padding-top: 10%;
         margin-left: 0%;
     }
@@ -359,7 +356,7 @@ li{
         min-width: 50%;
     }
     .logo-header{
-        width: 30%;
+        width: 15%;
         padding-top: 10%;
         margin-left: 0%;
     }
