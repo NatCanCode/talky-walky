@@ -306,7 +306,7 @@ li{
         min-width: 50%;
     }
     .logo-header{
-        width: 15%;
+        width: 30%;
         padding-top: 10%;
         margin-left: 0%;
     }
@@ -347,16 +347,11 @@ li{
 }
 
 @media screen and (max-width: 1024px){
-    .logo-header{
-        width: 30%;
-        padding-top: 10%;
-        margin-left: 0%;
-    }
     .nav-right{
         min-width: 50%;
     }
     .logo-header{
-        width: 15%;
+        width: 30%;
         padding-top: 10%;
         margin-left: 0%;
     }

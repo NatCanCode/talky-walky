@@ -146,11 +146,11 @@ p{
 }
 
 @media screen and (max-width: 414px){
-    .logo-header{
+    /* .logo-header{
         justify-content: space-around;
         align-items: center;
         padding-top: 10%;
-    }
+    } */
     .nav-right{
         min-height: 13%;
         flex-direction: column-reverse;
