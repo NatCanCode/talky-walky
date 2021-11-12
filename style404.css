@@ -72,9 +72,9 @@ nav{
     align-items: center;
 }
 .logo-header{
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 4%;
+    width: 15%;
+    padding-top: 6%;
+    margin-left: -1%;
 }
 .nav-right{
     position: absolute;
@@ -205,6 +205,11 @@ p{
 }
 
 @media screen and (max-width: 1024px){
+    .logo-header{
+        width: 30%;
+        padding-top: 10%;
+        margin-left: 0%;
+    }
     .oups-container{
         align-items: center;
         padding: 5%;
