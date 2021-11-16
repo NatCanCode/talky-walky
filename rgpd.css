@@ -91,73 +91,59 @@ nav{
 h1{
     font-size: clamp(36px, 10vw, 56px);
 }
+h2{
+    font-size: clamp(32px, 10vw, 40px);
+}
 p{
     font-size: clamp(14px, 10vw, 18px);
     line-height: 1.5;
 }
 .logo{
-    width: 65%;
+    width: 50%;
 }
-.cartoon-404{
-    width: 30%;
-}
-.oups-container{
+
+.rgpd-container{
     justify-content: center;
     padding: -10% 5% -10% 5%;
     /* padding: top right bottom left*/ 
-    margin-top: -5%;
+    margin-top: 7%;
 }
-.oups{
+.rgpd{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-    width: 40%;
+    width: 60%;
     padding: 0% 10% 0% 5%;
     /* padding: top right bottom left*/
 }
-.oups-title{
-    margin-top: 20%;
+.rgpd-title{
+    margin-top: 25%;
 }
-.oups-text{
-    margin-top: -60%;
-    margin-bottom: -60%;
+.rgpd-text{
+    margin-top: 1%;
+    /* margin-bottom: -60%; */
 }
-.quatrecentquatre{
-    font-size: clamp(200px, 10vw, 288px);
-    color: #ffee99; 
-    margin-top: 3%;
-    margin-left: -15%;
-    margin-right: -7%;
-}
-.oups-vague-jaune{ 
+.rgpd-vague-jaune{ 
     position: relative;
     z-index: -1;
-    bottom: 35%;
+    bottom: 0%;
     width: 100%;
 }
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 360px){
-    .oups{
+    .rgpd{
         margin-top: 0% !important;
-    }
-    .cartoon-404{
-        margin-top: -10% !important;
     }
 }
 
 @media screen and (max-width: 375px){
-    .oups{
+    .rgpd{
         margin-top: 22%;
     }
 }
 
 @media screen and (max-width: 414px){
-    /* .logo-header{
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 10%;
-    } */
     .nav-right{
         min-height: 13%;
         flex-direction: column-reverse;
@@ -168,19 +154,11 @@ p{
     .nav-padding{
         padding-right: 5%;
     }
-    .oups-container{
-        margin-top: 30% !important;
-    }
-    .oups{
+    /* .rgpd-container{
+        margin-top: 5%;
+    } */
+    .rgpd{
         width: 100% !important;
-    }
-    .quatrecentquatre{
-        /* position: absolute;
-        z-index: -1; */
-        bottom: 50% !important;
-    }
-    .cartoon-404{
-        width: 50% !important;
     }
 }
 
@@ -188,14 +166,14 @@ p{
     .nav-right{
         min-width: 50%;
     }
-    .oups-container{
+    .rgpd-container{
         flex-direction: column;
         align-items: center;
         padding: 5% 5% -10% 5%;
         /* padding: top right bottom left*/ 
-        margin-top: 25%;
+        margin-top: 5%;
     }
-    .oups{
+    .rgpd{
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
@@ -203,16 +181,11 @@ p{
         padding: 0% 5% 5% 5%;
         /* padding: top right bottom left*/
     }
-    .oups-text{
+    .rgpd-text{
         margin-top: 10%;
         margin-bottom: 10%;
     }
-    
-    .cartoon-404{
-        width: 45%;
-        margin-top: -10%;
-    }
-    .oups-vague-jaune{
+    .rgpd-vague-jaune{
         bottom: 0%;
     }
 }
@@ -223,21 +196,19 @@ p{
         padding-top: 10%;
         margin-left: 0%;
     }
-    .oups-container{
+    .rgpd-container{
         align-items: center;
         padding: 5%;
         /* padding: top right bottom left*/ 
-        margin-top: 15%;
     }
-    .oups{
-        width: 70%;
+    .rgpd-title{
+        margin-bottom: 5%;
+        text-align: center;
     }
-    .quatrecentquatre{
-        position: absolute;
-        z-index: -1;
-        bottom: 70%;
+    .rgpd{
+        width: 90%;
     }
-    .oups-vague-jaune{
-        bottom: 10%;
+    .rgpd-vague-jaune{
+        bottom: 0%;
     }
 }

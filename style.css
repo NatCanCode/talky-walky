@@ -109,7 +109,7 @@ p{
     position: relative;
     z-index: -1;
     bottom: 5%;
-    width: 100%;
+    width: auto;
 }
 
 /* CHANNELS */
@@ -199,9 +199,11 @@ footer{
     display: grid;
     grid-gap: 2%;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-template-areas:
-    ". . . accueil-footer canaux-footer"
+    "rgpd rgpd . accueil-footer canaux-footer"
+    ". . . . canaux-footer"
+    ". . . . canaux-footer"
     "logo-footer logo-footer . . canaux-footer";
 }
 footer a{
@@ -214,6 +216,12 @@ footer a:hover{
 li{
     list-style: none;
     line-height: 30px;
+}
+.rgpd{
+    grid-area: rgpd;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border: 2px solid #FFFFFF; */
 }
 .logo-footer{
     grid-area: logo-footer;
@@ -280,11 +288,13 @@ li{
     }
     footer{
         height: 80vh !important;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(6, 1fr) !important;
         grid-template-areas:
         "accueil-footer"
         "canaux-footer"
+        "."
+        "rgpd"
         "."
         "logo-footer" !important;
     }
@@ -295,6 +305,12 @@ li{
     .canaux-footer{
         align-items: center;
         text-align: center;
+        margin-top: 7%;
+    }
+    .rgpd{
+        align-items: center;
+        text-align: center;
+        margin-top: 7%;
     }
     .logo-footer{
         align-items: center;
@@ -340,8 +356,13 @@ li{
     }
     footer{
         height: 35vh;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         grid-template-areas:
-        ". . . accueil-footer canaux-footer"
+        "rgpd rgpd rgpd-btn accueil-footer canaux-footer"
+        ". . . . canaux-footer"
+        ". . . . canaux-footer"
+        ". . . . canaux-footer"
         "logo-footer logo-footer . . canaux-footer";
     }
 }
@@ -385,8 +406,13 @@ li{
     }
     footer{
         height: 35vh;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         grid-template-areas:
-        ". . . accueil-footer canaux-footer"
+        "rgpd rgpd rgpd-btn accueil-footer canaux-footer"
+        ". . . . canaux-footer"
+        ". . . . canaux-footer"
+        ". . . . canaux-footer"
         "logo-footer logo-footer . . canaux-footer";
     }
 }
