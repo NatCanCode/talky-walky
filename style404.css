@@ -123,11 +123,12 @@ p{
     margin-bottom: -60%;
 }
 .quatrecentquatre{
-    font-size: clamp(200px, 10vw, 288px);
+    position: absolute;
+    z-index: -1;
+    font-size: clamp(200px, 10vw, 400px);
     color: #ffee99; 
-    margin-top: 3%;
+    margin-top: 4%;
     margin-left: -7%;
-    margin-right: -7%;
 }
 .oups-vague-jaune{ 
     position: relative;
